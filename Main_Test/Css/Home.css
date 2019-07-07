@@ -1,0 +1,16 @@
+
+@media only screen and (max-width: 770px){
+    .SlideShow_Bar{
+        height: 650px;
+        width: 100%;
+        background-image: url(D:/Work/Games/Castle_Knights/Website/Main_Test/Gfx/VexleStudio/SlideShow_Home/1.png);
+    }
+}
+
+@media only screen and (min-width: 771px){
+    .SlideShow_Bar{
+        height: 950px;
+        width: 100%;
+        background-image: url(D:/Work/Games/Castle_Knights/Website/Main_Test/Gfx/VexleStudio/SlideShow_Home/1.png);
+    }
+}

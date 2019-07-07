@@ -1,0 +1,140 @@
+
+@media only screen and (min-width: 771px){
+
+    .NavBar_Pc{
+        display: block;
+    }
+    
+    .NavBar_Phone{
+        display: none;
+    }
+
+    .NavBar{
+        background: black;
+        height: 50px;
+        width: 100%;
+    }
+
+    .Logo_NavBar{
+        height: 50px;
+        width: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .NavBar_Text{
+        text-decoration: none;
+        color: white;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .NavBar_Text:hover{
+        text-decoration: none;
+        color: rgb(218, 218, 218);
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .Social_Media_Bar{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(10, 10, 10);
+        text-align: center;
+    }
+
+    .Social_Media_Circle{
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .Footer{
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+    }
+
+    .Footer_Text{
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 770px){
+
+    .NavBar_Pc{
+        display: none;
+    }
+    
+    .NavBar_Phone{
+        display: block;
+    }
+
+    .NavBar{
+        background: black;
+        width: 100%;
+    }
+
+    .Logo_NavBar{
+        height: 50px;
+        width: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .NavBar_Text{
+        text-decoration: none;
+        color: white;
+        margin: 8px;
+    }
+
+    .NavBar_Text:hover{
+        text-decoration: none;
+        color: rgb(218, 218, 218);
+    }
+
+    .NavBar_Phone_Drop{
+        display: none;
+        background-color: black;
+    }
+
+    .NavBar_Toggle{
+        height: 30px;
+        width: 30px;
+        transform: rotate(0deg);
+    }
+
+    .Social_Media_Bar{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(10, 10, 10);
+        text-align: center;
+        
+    }
+
+    .Social_Media_Circle{
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .Footer{
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+    }
+
+    .Footer_Text{
+        color: white;
+    }
+
+}
