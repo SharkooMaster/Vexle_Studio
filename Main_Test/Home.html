@@ -16,22 +16,22 @@
       
     <div class="container-fluid NavBar NavBar_Pc">
         <div class="container" style="text-align: center;">
-            <a href="#" class="NavBar_Text">Page</a>
-            <a href="#" class="NavBar_Text">Page</a>
-            <a href="#" class="NavBar_Text"><img class="img-fluid Logo_NavBar" src="Gfx/VexleStudio/Logo/Vexle_Logo_Light.png"></a>
-            <a href="#" class="NavBar_Text">Page</a>
-            <a href="#" class="NavBar_Text">Page</a>
+            <a href="#" class="NavBar_Text">Home</a>
+            <a href="#" class="NavBar_Text">Games</a>
+            <a href="#" class="NavBar_Text"><img class="img-fluid Logo_NavBar" src="Css/Gfx/VexleStudio/Logo/images/Vexle_Logo.gif"></a>
+            <a href="#" class="NavBar_Text">About</a>
+            <a href="#" class="NavBar_Text">Contact Us</a>
         </div>
     </div>
 
     <div class="container-fluid NavBar NavBar_Phone">
-        <img onclick="NavBar_Toggle()" id="NavBar_Toggle" class="NavBar_Toggle" src="Gfx/UI/Hamburger_Icon/Hamburger_icon.svg.png">
+        <img onclick="NavBar_Toggle()" id="NavBar_Toggle" class="NavBar_Toggle" src="Css/Gfx/UI/Hamburger_Icon/Hamburger_icon.svg.png">
         <div class="NavBar_Phone_Drop" id="NavBar_Phone_Drop">
           <ul style="list-style: none;">
-            <li><a href="#" class="NavBar_Text">Page</a></li>
-            <li><a href="#" class="NavBar_Text">Page</a></li>
-            <li><a href="#" class="NavBar_Text">Page</a></li>
-            <li><a href="#" class="NavBar_Text">Page</a></li>
+            <li><a href="#" class="NavBar_Text">Home</a></li>
+            <li><a href="#" class="NavBar_Text">Games</a></li>
+            <li><a href="#" class="NavBar_Text">About</a></li>
+            <li><a href="#" class="NavBar_Text">Contact Us</a></li>
           </ul>
         </div>
     </div>
@@ -41,13 +41,60 @@
 
     <!-- Events -->
 
+    <div class="container-fluid Events_Bar img-fluid">
+      <div class="container">
+          <div class="Events_Nav">
+              <a class="Event_Bar_Text" onclick="Main_Events()">Main</a>
+              <a class="Event_Bar_Text" onclick="Games()">Games</a>
+              <a class="Event_Bar_Text" onclick="Streams()">Streams</a>
+              <a class="Event_Bar_Text" onclick="Updates()">Updates</a>
+            </div>
+            <div class="Main_Events_Cards_Div" id="Main_Events_Id">
+              <!--Images-->
+              <div class="Main_Event_Cards Main_Event_Cards_0 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Main_Event_Cards_1 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Main_Event_Cards_2 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Main_Event_Cards_3 Event_Cards_Pc"></div>
+            </div>
+            <div class="Game_Cards_Div" id="Games_Id">
+              <!--Images-->
+              <div class="Main_Event_Cards Games_Cards_0 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Games_Cards_1 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Games_Cards_2 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Games_Cards_3 Event_Cards_Pc"></div>
+            </div>
+            <div class="Streams_Cards_Div" id="Streams_Id">
+              <!--Images-->
+              <a href="https://www.twitch.tv/vexle_studio" target="_blank"><div class="Main_Event_Cards Streams_Cards_0 Event_Cards_Pc"></div></a>
+              <div class="Main_Event_Cards Streams_Cards_1 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Streams_Cards_2 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Streams_Cards_3 Event_Cards_Pc"></div>
+            </div>
+            <div class="Updates_Cards_Div" id="Updates_Id">
+              <!--Images-->
+              <div class="Main_Event_Cards Updates_Cards_0 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Updates_Cards_1 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Updates_Cards_2 Event_Cards_Pc"></div>
+              <div class="Main_Event_Cards Updates_Cards_3 Event_Cards_Pc"></div>
+            </div>
+      </div>
+    </div>
+
     <!-- Games -->
 
+    <div class="container-fluid Games_Home Game_Cover_Pc">
+      <img class="img-fluid Games_Covers" src="Css/Gfx/VexleStudio/Games_Home/Games_Home_Landieval_Cover.png">
+    </div>
+
+    <div class="container-fluid Games_Home Game_Covers_Phone">
+      <img class="img-fluid Games_Covers" src="Css/Gfx/VexleStudio/Games_Home/Games_Home_Landieval_Phone.png">
+    </div>
+
     <div class="container-fluid Social_Media_Bar">
-      <span class="Social_Media_Circle badge "><img class="img-fluid" src="Gfx/UI/SocialMedia/Logos/Twitter_Logo.png"></span>
-      <span class="Social_Media_Circle badge "><img class="img-fluid" src="Gfx/UI/SocialMedia/Logos/Twitter_Logo.png"></span>
-      <span class="Social_Media_Circle badge "><img class="img-fluid" src="Gfx/UI/SocialMedia/Logos/Twitter_Logo.png"></span>
-      <span class="Social_Media_Circle badge "><img class="img-fluid" src="Gfx/UI/SocialMedia/Logos/Twitter_Logo.png"></span>
+      <span class="Social_Media_Circle badge "><img class="img-fluid" src="Css/Gfx/UI/SocialMedia/Logos/Twitter_Logo.png"></span>
+      <span class="Social_Media_Circle badge "><img class="img-fluid" src="Css/Gfx/UI/SocialMedia/Logos/Twitter_Logo.png"></span>
+      <span class="Social_Media_Circle badge "><img class="img-fluid" src="Css/Gfx/UI/SocialMedia/Logos/Twitter_Logo.png"></span>
+      <span class="Social_Media_Circle badge "><img class="img-fluid" src="Css/Gfx/UI/SocialMedia/Logos/Twitter_Logo.png"></span>
     </div>
 
     <div class="container-fluid Footer">
@@ -55,6 +102,7 @@
     </div>
 
     <script src="Js/Template.js"></script>
+    <script src="Js/Home.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
