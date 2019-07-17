@@ -26,12 +26,39 @@ body{
         width: 100%;
     }
 
+    .Events_Nav{
+        width: 100%;
+        height: 35px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Event_Bar_Text{
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+        font-size: 18px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .Games_Covers{
+        margin-top: 50px;
+    }
+
     .Game_Cover_Pc{
         display: none;
     }
 
     .Game_Covers_Phone{
         display: block;
+        width: 100%;
     }
 }
 
@@ -112,15 +139,15 @@ body{
     }
 
     .Main_Event_Cards_1{
-        background-image: url(Gfx/VexleStudio/Events/Main_Cards/Main_Card_0.png);
+        background-image: url(Gfx/VexleStudio/Events/Main_Cards/Main_Card_1.png);
     }
 
     .Main_Event_Cards_2{
-        background-image: url(Gfx/VexleStudio/Events/Main_Cards/Main_Card_0.png);
+        background-image: url(Gfx/VexleStudio/Events/Main_Cards/Main_Card_2.png);
     }
 
     .Main_Event_Cards_3{
-        background-image: url(Gfx/VexleStudio/Events/Main_Cards/Main_Card_0.png);
+        background-image: url(Gfx/VexleStudio/Events/Main_Cards/Main_Card_3.png);
     }
 
     .Games_Cards_0{
