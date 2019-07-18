@@ -83,12 +83,13 @@
         width: 100%;
     }
 
-    /*.Logo_NavBar{
-        height: 50px;
-        width: 50px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }*/
+    .Logo_NavBar{
+        height: 35px;
+        width: 35px;
+        margin-right: 10px;
+        float: right;
+        margin-top: 5px;
+    }
     
     .NavBar_Text{
         text-decoration: none;
