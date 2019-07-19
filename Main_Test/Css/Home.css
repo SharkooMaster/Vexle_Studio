@@ -21,10 +21,10 @@ body{
     }
 
     .Events_Bar{
-        background-color: white;
-        height: 500px;
+        height: 700px;
         width: 100%;
         background-image: url(Gfx/VexleStudio/Events/Events_Bg_Phones.png);
+        z-index: 1;
     }
 
     .Events_Nav{
