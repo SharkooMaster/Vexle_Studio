@@ -6,7 +6,7 @@ html{
 body{
     position: relative;
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(Gfx/VexleStudio/SlideShow_Home/Landieval_Scene.png);
@@ -59,6 +59,41 @@ body{
         user-select: none;
     }
 
+    .Events_Nav_Button{
+        height: 40px;
+        width: 25px;
+        margin: 2px;
+    }
+
+    .Events_Div_Pc{
+        display: none;
+    }
+
+    .Events_Div_Phone{
+        display: none;
+    }
+
+    .Events_Div_Phone_2{
+        display: block;
+    }
+
+    .Events_Phone_Div{
+        width: 100%;
+        height: 450px;
+        text-align: center;
+    }
+
+    .Events_Img_Phone{
+        display:inline-block;
+        height: 250px;
+        width: 170px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        filter: drop-shadow(.5px .5px 2px rgb(204, 204, 204));
+    }
+
     .Games_Covers{
         margin-top: 50px;
         height: 700px;
@@ -93,9 +128,9 @@ body{
     }
 
     .Events_Bar{
-        height: 700px;
+        height: 800px;
         width: 100%;
-        background-image: url(Gfx/VexleStudio/Events/Events_Bg_Phones.png);
+        background-image: url(Gfx/VexleStudio/Events/Events_Bg_Phones_1.png);
         z-index: 1;
     }
 
@@ -121,6 +156,37 @@ body{
         user-select: none;
     }
 
+    .Events_Div_Pc{
+        display: none;
+    }
+
+    .Events_Div_Phone{
+        display: block;
+    }
+
+    .Events_Div_Phone_2{
+        display: none;
+    }
+
+    .Events_Phone_Div{
+        width: 100%;
+        height: 450px;
+        text-align: center;
+    }
+
+    .Events_Img_Phone{
+        display:inline-block;
+        max-height: 250px;
+        min-height: 150px;
+        max-width: 150px;
+        min-width: 50px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        filter: drop-shadow(.5px .5px 2px rgb(204, 204, 204));
+    }
+
     .Games_Covers{
         margin-top: 50px;
         height: 700px;
@@ -136,7 +202,8 @@ body{
     }
 }
 
-@media only screen and (min-width: 995px){
+@media only screen and (min-width: 996px){
+
     .SlideShow_Bar{
         height: 960px;
         width: 100%;
@@ -180,6 +247,18 @@ body{
 
     .Event_Bar_Text:active{
         filter: drop-shadow(.5px .5px 2px rgb(128, 128, 128));
+    }
+
+    .Events_Div_Pc{
+        display: block;
+    }
+
+    .Events_Div_Phone{
+        display: none;
+    }
+
+    .Events_Div_Phone_2{
+        display: none;
     }
 
     .Main_Event_Cards{

@@ -114,7 +114,6 @@
     }
 
     .Social_Media_Bar{
-        height: 50px;
         width: 100%;
         background-color: rgb(10, 10, 10);
         text-align: center;
@@ -130,7 +129,6 @@
     }
 
     .Footer{
-        height: 50px;
         width: 100%;
         background-color: black;
         text-align: center;

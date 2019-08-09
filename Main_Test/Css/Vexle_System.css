@@ -1,0 +1,18 @@
+
+body{
+    overflow: hidden;
+    background-image: url("../Css/Gfx/Vexle_OS/Bg.png");
+}
+
+.Screen{
+    height: 100%;
+    width: 100%;
+}
+
+.Task_Bar{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+}
