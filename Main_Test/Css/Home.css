@@ -173,6 +173,22 @@ body{
         user-select: none;
     }
 
+    .Main_Text{
+        font-weight: bold;
+    }
+
+    .Games_Text{
+        font-weight: normal;
+    }
+
+    .Streams_Text{
+        font-weight: normal;
+    }
+
+    .Updates_Text{
+        font-weight: normal;
+    }
+
     .Events_Div_Pc{
         display: none;
     }
@@ -255,6 +271,22 @@ body{
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+    }
+
+    .Main_Text{
+        font-weight: bold;
+    }
+
+    .Games_Text{
+        font-weight: normal;
+    }
+
+    .Streams_Text{
+        font-weight: normal;
+    }
+
+    .Updates_Text{
+        font-weight: normal;
     }
 
     .Event_Bar_Text:hover{
