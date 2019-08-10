@@ -59,10 +59,27 @@ body{
         user-select: none;
     }
 
+    .Main_Text{
+        font-weight: bold;
+    }
+
+    .Games_Text{
+        font-weight: normal;
+    }
+
+    .Streams_Text{
+        font-weight: normal;
+    }
+
+    .Updates_Text{
+        font-weight: normal;
+    }
+
     .Events_Nav_Button{
-        height: 40px;
-        width: 25px;
+        height: calc(30px + .5%);
+        width: calc(15px + .5%);
         margin: 2px;
+        opacity: 0.7;
     }
 
     .Events_Div_Pc{
@@ -79,14 +96,14 @@ body{
 
     .Events_Phone_Div{
         width: 100%;
-        height: 450px;
+        height: calc(450px + 5vw);
         text-align: center;
     }
 
     .Events_Img_Phone{
         display:inline-block;
-        height: 250px;
-        width: 170px;
+        height: calc(250px - 10px);
+        width: calc(170px - 10px);
         margin-top: 30px;
         margin-bottom: 20px;
         margin-left: 5px;

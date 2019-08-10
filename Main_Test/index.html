@@ -49,10 +49,10 @@
     <div class="container-fluid Events_Bar img-fluid">
       <div class="container">
           <div class="Events_Nav">
-            <a class="Event_Bar_Text btn" onclick="Main_Events()">Main</a>
-            <a class="Event_Bar_Text btn" onclick="Games()">Games</a>
-            <a class="Event_Bar_Text btn" onclick="Streams()">Streams</a>
-            <a class="Event_Bar_Text btn" onclick="Updates()">Updates</a>
+            <a id="Main_Text" class="Main_Text Event_Bar_Text btn" onclick="Main_Events()">Main</a>
+            <a id="Games_Text" class="Games_Text Event_Bar_Text btn" onclick="Games()">Games</a>
+            <a id="Streams_Text" class="Streams_Text Event_Bar_Text btn" onclick="Streams()">Streams</a>
+            <a id="Updates_Text" class="Updates_Text Event_Bar_Text btn" onclick="Updates()">Updates</a>
           </div>
           <div class="Events_Div_Pc">
             <div class="Main_Events_Cards_Div" id="Main_Events_Id">
@@ -100,12 +100,12 @@
             <div class="container Events_Phone_Div">
                 <div class="Main_Events_Phone">
                   <!--<button class="Events_Button_Left" onclick="Events_Prev()">Prev</button>-->
-                  <img class="Events_Nav_Button" src="Css/Gfx/UI/Events/Arrow_Left.png" onclick="Events_Prev()">
+                  <img class="img-fluid Events_Nav_Button" src="Css/Gfx/UI/Events/Arrow_Left.png" onclick="Events_Prev()">
                     <img id="Event_Card_Phone_2" class="img-fluid Events_Img_Phone" src="Css/Gfx/VexleStudio/Events_Phone/Events_Phone.png">
                     <img id="Game_Event_Card_Phone_2" class="img-fluid Events_Img_Phone" src="Css/Gfx/VexleStudio/Events_Phone/Events_Phone.png">
                     <img id="Streams_Event_Card_Phone_2" class="img-fluid Events_Img_Phone" src="Css/Gfx/VexleStudio/Events_Phone/Events_Phone.png">
                     <img id="Updates_Event_Card_Phone_2" class="img-fluid Events_Img_Phone" src="Css/Gfx/VexleStudio/Events_Phone/Events_Phone.png">
-                    <img class="Events_Nav_Button" src="Css/Gfx/UI/Events/Arrow_Right.png" onclick="Events_Next()">
+                  <img class="img-fluid Events_Nav_Button" src="Css/Gfx/UI/Events/Arrow_Right.png" onclick="Events_Next()">
                   <!--<button onclick="Events_Next()">Next</button>-->
               </div>
             </div>

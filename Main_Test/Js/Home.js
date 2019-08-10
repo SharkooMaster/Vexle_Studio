@@ -5,6 +5,11 @@ let Image_2 = false;
 let Image_3 = false;
 
 function Main_Events(){
+    document.getElementById("Main_Text").style.fontWeight = "bold";
+    document.getElementById("Games_Text").style.fontWeight = "normal";
+    document.getElementById("Streams_Text").style.fontWeight = "normal";
+    document.getElementById("Updates_Text").style.fontWeight = "normal";
+
     document.getElementById("Main_Events_Id").style.display = "block";
     document.getElementById("Event_Card_Phone_2").style.display = "inline-block";
     document.getElementById("Games_Id").style.display = "none";
@@ -25,6 +30,11 @@ function Main_Events(){
 }
 
 function Games(){
+    document.getElementById("Main_Text").style.fontWeight = "normal";
+    document.getElementById("Games_Text").style.fontWeight = "bold";
+    document.getElementById("Streams_Text").style.fontWeight = "normal";
+    document.getElementById("Updates_Text").style.fontWeight = "normal";
+
     document.getElementById("Main_Events_Id").style.display = "none";
     document.getElementById("Event_Card_Phone_2").style.display = "none";
     document.getElementById("Games_Id").style.display = "block";
@@ -45,6 +55,11 @@ function Games(){
 }
 
 function Streams(){
+    document.getElementById("Main_Text").style.fontWeight = "normal";
+    document.getElementById("Games_Text").style.fontWeight = "normal";
+    document.getElementById("Streams_Text").style.fontWeight = "bold";
+    document.getElementById("Updates_Text").style.fontWeight = "normal";
+
     document.getElementById("Main_Events_Id").style.display = "none";
     document.getElementById("Event_Card_Phone_2").style.display = "none";
     document.getElementById("Games_Id").style.display = "none";
@@ -65,6 +80,11 @@ function Streams(){
 }
 
 function Updates(){
+    document.getElementById("Main_Text").style.fontWeight = "normal";
+    document.getElementById("Games_Text").style.fontWeight = "normal";
+    document.getElementById("Streams_Text").style.fontWeight = "normal";
+    document.getElementById("Updates_Text").style.fontWeight = "bold";
+
     document.getElementById("Main_Events_Id").style.display = "none";
     document.getElementById("Event_Card_Phone_2").style.display = "none";
     document.getElementById("Games_Id").style.display = "none";
